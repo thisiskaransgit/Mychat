@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/chat-app-logo-without-bg.png" />
+    <style>
+      .loadContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .loading {
+        width: 2.5em;
+        height: 3em;
+        border: 3px solid transparent;
+        border-top-color: #003566;
+        border-bottom-color: #fc2f70;
+        border-radius: 50%;
+        animation: spin-stretch 2s ease infinite;
+      }
+      @keyframes spin-stretch {
+        50% {
+          transform: rotate(360deg) scale(0.4, 0.33);
+          border-width: 8px;
+        }
+        100% {
+          transform: rotate(720deg) scale(1, 1);
+          border-width: 3px;
+        }
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A free online chatting platform to make life easier and simplier."
+    />
+    <meta
+      name="keywords"
+      content="Chat, Chat App, Online Chat, Live Chat, Easy, Simple, Convinient, Light, Tech, CSS, HTML, JavaScript, Personal Project"
+    />
+    <meta name="author" content="Po Yi Zhi" />
+    <title>Eazy Chat App, Simple & Easy!</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLVRV43F04"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FLVRV43F04');
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="loadContainer">
+        <div class="loading"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

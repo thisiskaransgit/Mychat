@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputStyle {
+  @apply block w-full px-2 py-1 text-gray-700 placeholder-gray-500 bg-white rounded border focus:border-blue-500 focus:outline-none focus:ring;
+}
+.authBtn {
+  @apply w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600;
+}
+.authRouterLink {
+  @apply font-medium text-gray-700 hover:underline;
+}
+.dropDown {
+  @apply absolute right-0 z-20 w-32 mt-4 mr-1 bg-white rounded-md shadow-xl overflow-hidden;
+}
+.dropDownItem {
+  @apply block py-3 px-4 text-sm text-gray-600 capitalize transition-colors duration-200 transform hover:bg-gray-100;
+}
+.menuItemContainer {
+  @apply absolute right-0 w-40 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none;
+}
+
+/* https://www.digitalocean.com/community/tutorials/css-scrollbars */
+/* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 171, 171);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(107, 107, 107);
+}
+
+/* backrground and border colors */
+.bg-dark-blue {
+  background-color: #425e85;
+}
+.bg-secondary-dark {
+  background-color: #457b9d;
+}
+.bg-secondary-light {
+  background-color: #a8dadc;
+}
+.bg-light {
+  background-color: #f1faee;
+}
+.bg-light-default {
+  background-color: #f4faf2;
+}
+.border-secondary-light {
+  border-color: #5989a7;
+}
+.border-secondary-dark {
+  border-color: #457b9d;
+}
+.text-dark-blue {
+  color: #1d3557;
+}
+.text-secondary-light {
+  color: #a8dadc;
+}
