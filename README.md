@@ -1,5 +1,5 @@
-# mychat
-Real time Chat application ( Currently in Progress)
+# mychat  ( Currently in Progress)
+Real time Chat application
 ## Project setup
 ```
 npm install
