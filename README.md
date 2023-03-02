@@ -1,4 +1,4 @@
-# mychat  ( Currently in Progress)
+# mychat  
 Real time Chat application
 ## Project setup
 ```
